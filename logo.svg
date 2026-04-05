@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3.8 3.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d666f;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #d25832;
+      }
+
+      .cls-4 {
+        fill: #708d66;
+      }
+
+      .cls-5 {
+        fill: #e6e7e8;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2.69" y1="3.01" x2="2.69" y2="1.59" gradientUnits="userSpaceOnUse">
+      <stop offset=".32" stop-color="#708d66"/>
+      <stop offset=".69" stop-color="#a7a9ac"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-2" d="M3.01,1.76v1.08c0,.09-.08.17-.18.17h-.28c-.09,0-.17-.08-.17-.17v-1.08c0-.09.08-.17.17-.17h.28c.1,0,.18.08.18.17Z"/>
+  <rect class="cls-1" x="3.17" y="1.59" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="1.59" y="1.59" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-4" x=".79" y="1.59" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" y="1.59" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="3.17" y=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-5" x="2.38" y=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-4" x="1.59" y=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x=".79" y=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-5" y=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-5" x="3.17" y="2.38" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-3" x="1.59" y="2.38" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-5" x=".79" y="2.38" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" y="2.38" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="3.17" y="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="2.38" y="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-4" x="1.59" y="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x=".79" y="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" y="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-4" x="3.17" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="2.38" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x="1.59" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" x=".79" width=".63" height=".63" rx=".17" ry=".17"/>
+  <rect class="cls-1" width=".63" height=".63" rx=".17" ry=".17"/>
+</svg>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Koeppel Lab: programmable structural variation and high-throughput genome engineering to decode mammalian genome function." />
   <title>Koeppel Lab | Genome Engineering</title>
+  <link rel="icon" href="./logo.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Karla:wght@400;500;700&amp;display=swap" rel="stylesheet" />
@@ -36,8 +37,7 @@
           <p class="kicker">Future Research Group</p>
           <h1>Engineering structural variation to understand human genome function.</h1>
           <p class="lead">
-            We develop scalable genome-editing technologies to generate, genotype, and phenotype thousands of designed structural variants.
-            Our goal is to map sequence dispensability, decode non-coding architecture, and lay the foundations for minimal mammalian genomes.
+            We develop scalable genome-editing technologies to generate, genotype, and phenotype thousands of designed structural variants. Our goal is to map sequence dispensability, decode noncoding genome architecture, and lay the foundation for minimal mammalian genomes.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#research">Explore Research Aims</a>
@@ -50,19 +50,27 @@
 
     <section class="section section-soft" id="research">
       <div class="inner">
-        <p class="kicker">Research Program</p>
-        <h2>From designed variants to predictive genome biology</h2>
-        <p class="intro">
-          When do we truly understand a mammalian genome? Such understanding requires more than describing the function, or lack thereof, of each base pair. It also requires the ability to predict the consequences of any sequence or structural variant and to design new genomes that function as intended. We still lack methods to programmably disrupt and engineer genome architecture at larger scales, i.e. through structural variation (SV). Our lab will develop and apply technologies to program, generate, and phenotype thousands of designed SVs to advance a functional understanding of mammalian genome architecture and illuminate the mechanisms by which SVs cause disease.
-                  </p>
+        <div class="research-overview">
+          <p class="kicker">Research Program</p>
+          <h2>From designed variants to predictive genome biology</h2>
+          <div class="research-intro-row">
+            <p class="intro">
+              When do we truly understand a mammalian genome? Such understanding requires more than describing the function, or lack thereof, of each base pair. It also requires the ability to predict the consequences of sequence and structural variants and to design new genomes that function as intended. We still lack methods to systematically engineer genome architecture at larger scales through structural variation (SV).</br></br>
+Recent advances have begun to change this. A convergence of new genome engineering technologies has brought programmable SV engineering within reach, making this an especially exciting moment for the field. By combining genome engineering strategies such as prime editing, recombinases, and CRISPR-Cas3, we have generated highly engineered human cell systems that enable SV formation in mammalian genomes at an unprecedented scale. We pair these perturbation strategies with long-read sequencing, phage polymerase-based genotyping, and emerging single-cell approaches to directly resolve engineered variants and connect them to changes in fitness and gene expression.</br></br>
+Building on this foundation, our lab will develop and apply technologies to design, generate, and phenotype thousands of defined SVs, advancing a functional understanding of mammalian genome architecture, illuminating the mechanisms by which SVs cause disease, and laying the foundation for designing streamlined mammalian genomes.
+            </p>
+            <figure class="research-visual reveal">
+              <img src="./chromosome.png" alt="Chromosome illustration" />
+            </figure>
+          </div>
+        </div>
 
         <div class="aim-grid">
           <article class="aim-card reveal">
             <p class="aim-tag">Aim 1</p>
             <h3>Build high-throughput SV screening with multimodal readouts</h3>
             <p>
-              Develop pipelines that generate defined SVs across scales, directly read edit junctions, and connect each variant to transcriptomic,
-              chromatin, and fitness phenotypes at single-cell resolution.
+              Develop strategies to generate defined SVs across scales, directly read edit junctions, and link each variant to transcriptomic, chromatin, and fitness phenotypes at single-cell resolution.
             </p>
             <img class="aim-illustration" src="./Aim1.svg" alt="Aim 1 figure" />
           </article>
@@ -70,8 +78,7 @@
             <p class="aim-tag">Aim 2</p>
             <h3>Decode enigmatic non-coding elements by SV perturbation</h3>
             <p>
-              Systematically perturb ultraconserved non-coding elements, transposable element families, and large chromatin domains to identify
-              functional elements and mechanisms that shape gene regulation.
+              Systematically perturb ultraconserved noncoding elements, transposable-element families, and large chromatin domains to uncover the elements and mechanisms that shape gene regulation.
             </p>
             <img class="aim-illustration" src="./Aim2.svg" alt="Aim 2 figure" />
           </article>
@@ -79,8 +86,7 @@
             <p class="aim-tag">Aim 3</p>
             <h3>Reveal genomic redundancies through minimized genomes</h3>
             <p>
-              Discover the largest tolerated deletions, construct deletion-bearing cell states, and combine them with genome-wide knockout screens
-              to uncover synthetic lethal interactions and design principles of robust genomes.
+              Identify the largest tolerated deletions, generate cells with megabase-sized deletions, and combine them with genome-wide knockout screens to uncover synthetic-lethal interactions and the design principles of robust genomes.
             </p>
             <img class="aim-illustration" src="./Aim3.svg" alt="Aim 3 figure" />
           </article>
@@ -167,7 +173,7 @@
             <div class="founder-bio">
               <h3>Jonas Koeppel, PhD</h3>
               <p>
-                Jonas is a developer of new genomic technologies to understand biology. Before, he was a PostDoc in the Shendure and Pinglay labs at the University of Washington, and completed a PhD in Genomics at the Wellcome Sanger Institute and University of Cambridge working with Leopold Parts. Outside of the lab, he enjoys photography, skiing, reading, hiking, and any racket sport.
+                Jonas is a developer of new genomic technologies to understand biology. Previously, he was a postdoctoral researcher in the Shendure and Pinglay labs at the University of Washington and completed a PhD in Genomics at the Wellcome Sanger Institute and the University of Cambridge, where he worked with Leopold Parts. Outside the lab, he enjoys photography, skiing, reading, hiking, and racket sports.
               </p>
             </div>
           </article>
@@ -175,7 +181,7 @@
         <aside class="join-card reveal">
           <h3>Join</h3>
           <p>
-            We are hiring! Please reach out if you are excited about engineering genomes at scale. I would love to chat!
+            We are hiring. Please get in touch if you are excited about engineering genomes at scale. I would love to hear from you.
           </p>
           <a class="button button-primary" href="mailto:koeppelj@uw.edu">Contact Jonas</a>
         </aside>
@@ -189,11 +195,11 @@
         <div class="news-list">
           <article class="news-item reveal">
             <p class="news-date">2026</p>
-            <p>The Koeppel lab is opening and recruiting the first team members.</p>
+            <p>The Koeppel Lab is launching and recruiting its founding team.</p>
           </article>
           <article class="news-item reveal">
             <p class="news-date">2025</p>
-            <p>Science paper on genome randomization by recombination between repeat elements published.</p>
+            <p>Our Science paper on genome randomization through recombination between repeat elements was published.</p>
           </article>
         </div>
       </div>
@@ -221,7 +227,6 @@
   <footer class="site-footer">
     <div class="inner footer-row">
       <p>Koeppel Lab</p>
-      <p>(c) <span id="year"></span> Genome Architecture and Engineering</p>
     </div>
   </footer>
 
