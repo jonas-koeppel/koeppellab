@@ -194,6 +194,7 @@ h3 {
   background: radial-gradient(circle, rgba(191, 98, 63, 0.16) 0%, rgba(191, 98, 63, 0) 70%);
   bottom: -14rem;
   right: 2vw;
+  pointer-events: none;
 }
 
 .hero-actions {
