@@ -293,15 +293,6 @@ h3 {
   box-shadow: 0 6px 18px rgba(38, 46, 62, 0.04);
 }
 
-.aim-tag {
-  margin: 0 0 0.4rem;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.17em;
-  color: var(--coral);
-}
-
 .aim-card p:last-child {
   color: var(--muted);
   margin-bottom: 0.8rem;
