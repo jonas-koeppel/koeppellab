@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonas-koeppel.github.io/koeppellab/sitemap.xml
