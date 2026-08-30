@@ -464,6 +464,15 @@ h3 {
   margin-top: 0.1rem;
 }
 
+.member-title {
+  margin: 0.35rem 0 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--sage);
+}
+
 .founder-bio p {
   margin-top: 0.55rem;
   color: var(--muted);
